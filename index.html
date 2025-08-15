@@ -9,36 +9,25 @@
     <body class="page">
         <!-- коммент-->
         <header class="header">
-            <div class="header__top">
-                <div class="header__title-block">
-                    <h1 class="title">Федеральное агенство по государственным резервам</h1>
-                </div>
-                <div class="header__form-block">
-                    <form class="form">
-                        <label for="date" class="form__label">Дата от</label>
-                        <input type="date" id="date" name="date" class="form__input">
-                    </form>
-                    <button type="button" class="button">
-                        <span class="button_text">&#10004 Применить</span>
-                    </button>
-                </div>
+            <div class="header__title-block">
+                <h1 class="title">Федеральное агенство по государственным резервам</h1>
             </div>
-            <div class="header__top">
+            <div class="header__cards-block">
                 <div class="header__card">
                     <h2 class="card__title">Число учреждений</h2>
-                    <div> <span class="info">128</span></div>
+                    <div> <span class="info">{INS}</span></div>
                 </div>
                 <div class="header__card">
                     <h2 class="card__title">Число ответственных хранителей</h2>
-                    <div><span class="info">3</span></div>
+                    <div><span class="info">{KEEP}</span></div>
                 </div>
                 <div class="header__card">
-                    <h2 class="card__title"> Число хранимых видов мц <span class="info"> 172</span></h2>
-                    <div><span class="card__text">в том числе для НЗ</span> <span class="info"> 147</span></div>
+                    <h2 class="card__title"> Число хранимых видов мц <span class="info"> {MC}</span></h2>
+                    <div><span class="card__text">в том числе для НЗ</span> <span class="info"> {NZ}</span></div>
                 </div>
                 <div class="header__card">
-                    <h2 class="card__title">Число контрагентов<span class="info"> 3244</span></h2>
-                    <h2 class="card__title">Действующих контрактов<span class="info"> 59</span></h2>
+                    <h2 class="card__title">Число контрагентов<span class="info"> {PAR}</span></h2>
+                    <h2 class="card__title">Действующих контрактов<span class="info"> {CONT}</span></h2>
                 </div>
             </div>
         </header>
