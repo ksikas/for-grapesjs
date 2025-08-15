@@ -40,25 +40,25 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 5;
   }
 
 .header__top {
     display: flex;
-    gap: 7px;
+    gap: 5px;
 }  
 
 .header__title-block {
     background-color: rgb(127 199 255 / 0.5);
     box-sizing: border-box;
-    padding: 5px;
+    padding: 3px;
     width: 75%;
     align-self: center;
 }
 
 .title {
     font-family: serif;
-    font-size: 32px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     line-height: 100%;
@@ -69,8 +69,8 @@ body {
     display: flex;
     justify-content: flex-start;
     align-content: flex-end;
-    gap: 15px;
-    padding-left: 15px;
+    gap: 10px;
+    padding-left: 10px;
     align-self: center;
 }
 
@@ -82,31 +82,31 @@ body {
 
 .form__label {
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 100%;
 }
 
 .form__input {
-    width: 150px;
-    padding: 7px;
+    width: 100px;
+    padding: 5px;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 100%;
-    border-radius: 6px;
+    border-radius: 4px;
     background-color: #fff8dc;
 }
 
 .button {
-    height: 39px;
-    padding: 7px;
+    height: 26px;
+    padding: 5px;
     box-sizing: border-box;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 100%;
-    border-radius: 6px;
+    border-radius: 4px;
     background-color: #fff8dc;
     border: 1px solid transparent;
     align-self: flex-end;
@@ -116,30 +116,30 @@ body {
     flex-grow: 1;
     background-color: rgb(127 199 255 / 0.5);
     box-sizing: border-box;
-    padding: 5px;
+    padding: 3px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 5px;
     justify-content: center;
     align-items: center;
 }
 
 .card__title {
     font-family: serif;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
 }
 
 .info {
     font-family: serif;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 700;
 }
 
 .card__text {
     font-family: serif;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
 }
