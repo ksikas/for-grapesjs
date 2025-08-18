@@ -45,6 +45,7 @@ body {
 
 .header__title-block {
     background-color: #d68da890;
+    background-image: linear-gradient(to right, #c24c78dd,  #d68da890, #c24c78dd);
     box-sizing: border-box;
     padding: 10px;
     width: 100%;
@@ -63,13 +64,14 @@ body {
 
 .header__cards-block {
     display: flex;
-    gap: 5px;
+    gap: 8px;
+    padding: 0 5px;
 }  
 
 .header__card-type-one-block {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 8px;
     width: 40%;
 }
 
@@ -84,7 +86,14 @@ body {
     align-items: center;
     border: 1.5px solid #a0afd6c6;
     border-radius: 10px;
+    box-shadow: 3px 3px 5px #2c323e88;
 }
+
+.header__card:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 3px 6px #2e1283c3;
+}
+
 
 .card-type-two {
     width: 30%
