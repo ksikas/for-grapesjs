@@ -45,7 +45,7 @@ body {
 
 .header__title-block {
     background-color: #d68da890;
-    background-image: linear-gradient(to right, #c24c78dd,  #d68da890, #c24c78dd);
+    background-image: linear-gradient(to right, #9c2c64,  #d394b3, #9c2c64);
     box-sizing: border-box;
     padding: 10px;
     width: 100%;
@@ -60,38 +60,40 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     line-height: 100%;
+    text-align: center;
 }
 
 .header__cards-block {
     display: flex;
-    gap: 8px;
-    padding: 0 5px;
+    gap: 10px;
+    padding: 0 8px;
 }  
 
 .header__card-type-one-block {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
     width: 40%;
 }
 
 .header__card {
-    background-color: #a0afd65b;
+    background-color: #a0afd695;
     box-sizing: border-box;
-    padding-block: 8px;
+    padding: 8px 10px;
     display: flex;
     flex-direction: column;
     gap: 5px;
     justify-content: center;
     align-items: center;
-    border: 1.5px solid #a0afd6c6;
+    border: 1.5px solid #a0afd6;
     border-radius: 10px;
     box-shadow: 3px 3px 5px #2c323e88;
+    text-align: center;
 }
 
 .header__card:hover {
     transform: scale(1.02);
-    box-shadow: 3px 3px 6px #2e1283c3;
+    box-shadow: 3px 3px 6px #4a87b3;
 }
 
 
@@ -116,4 +118,19 @@ body {
     font-family: 'Liberation Serif', serif;
     font-size: 16px;
     font-weight: 400;
+}
+
+@media (width < 750px) {
+    .header__cards-block {
+        flex-direction: column;
+    }
+
+    .header__card-type-one-block {
+        width: 100%;
+    }
+
+    .card-type-two {
+        width:100%;
+    }
+
 }
