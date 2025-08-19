@@ -120,7 +120,7 @@ body {
     font-weight: 400;
 }
 
-@media (width < 750px) {
+@media (width < 1200px) {
     .header__cards-block {
         flex-direction: column;
     }
